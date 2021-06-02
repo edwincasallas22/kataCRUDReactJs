@@ -23,7 +23,7 @@ const Form = () => {
     dispatch,
     state: { item },
   } = useContext(Store);
-  //Permite estados internos dentro del componente
+
   const [state, setState] = useState({ item });
 
   const onAdd = (event) => {
@@ -131,7 +131,7 @@ const List = () => {
               <tr key={todo.id}>
                 <td>{todo.id}</td>
                 <td>{todo.name}</td>
-                <td>{todo.isComplete === true ? "SI" : "NO"}</td>
+                <td>{todo.isCompleted === true ? "SI" : "NO"}</td>
                 <td>
                   <button onClick={() => onDelete(todo.id)}> Eliminar</button>
                 </td>
