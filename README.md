@@ -5,3 +5,4 @@ Este es el repositorio de practica de verificación de conocimiento en SPRING BO
 Preguntas acerca de este taller:
 
 1. Acerca de la dependencia CrudRepository()
+2.
